@@ -2,11 +2,11 @@
   <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 216 216" to="180 216 216" dur="2s" begin="click + 3" fill="freeze" id="clock" repeatCount="1"/>
                       <animateTransform attributeType="xml" attributeName="transform" type="rotate" to="0 216 216" from="180 216 216" dur="3s" begin="clock.end + 3" fill="freeze" id="counter" repeatCount="1"/>
     <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
-    <title>DoubleD copy</title>
+    <title>DoubleD</title>
     <desc>Created with Sketch.</desc>
     <defs/>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="DoubleD-copy" sketch:type="MSLayerGroup">
+        <g id="DoubleD" sketch:type="MSLayerGroup">
             <g id="Page-1" sketch:type="MSShapeGroup">
                 <g id="Portrait---6-Plus">
                     <g id="DoubleD">
