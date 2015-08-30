@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" height="300" width="300" viewBox="0 0 432 432" preserveAspectRatio="xMidYMid meet" version="1.1">
-  <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 150 150" to="180 150 150" dur="2s" begin="click + 3" fill="freeze" id="clock" repeatCount="1"/>
-                      <animateTransform attributeType="xml" attributeName="transform" type="rotate" to="0 150 150" from="180 150 150" dur="3s" begin="clock.end + 3" fill="freeze" id="counter" repeatCount="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" height="432" width="432" viewBox="0 0 432 432" preserveAspectRatio="xMidYMid meet" version="1.1">
+
     <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
     <title>DoubleD</title>
     <desc>Created with Sketch.</desc>
     <defs/>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="DoubleD" sketch:type="MSLayerGroup">
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 216 216" to="180 216 216" dur="2s" begin="click + 3" fill="freeze" id="clock" repeatCount="1"/>
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" to="0 216 216" from="180 216 216" dur="3s" begin="clock.end + 3" fill="freeze" id="counter" repeatCount="1"/>
+      <g id="DoubleD" sketch:type="MSLayerGroup">
             <g id="Page-1" sketch:type="MSShapeGroup">
                 <g id="Portrait---6-Plus">
                     <g id="DoubleD">
@@ -20,7 +21,7 @@
                           <animate id="showDowntown" attributeName="opacity" from="0" to="1" dur="3s" fill="freeze" begin="clock.begin - 3"/>
                           <animate id="animation2" attributeName="opacity" from="1" to="0" dur="2s" fill="freeze" begin="clock.begin"/>
                             <animate id="animation3" attributeName="opacity" from="0" to="1" dur="3s" fill="freeze" begin="animation.end + 2"/>
-                              <animate id="hideDowntown" attributeName="opacity" from="1" to="0" dur="3s" fill="freeze" begin="animation3.end"/></path>
+                              <animate id="hideDowntown" attributeName="opacity" from="1" to="0" dur="3s" fill="freeze" begin="animation3.end + 2"/></path>
                         <path d="M174.8 210.5 L182.6 210.5 L182.6 217.6 L174.8 217.6 L174.8 210.5 ZM182.6 207 L174.8 207 L174.8 177.7 L182.6 177.7 L182.6 207 ZM161.4 187.1 C161.3 185.7 160.9 184.8 160.4 184.2 C159.4 183.2 157.7 182.7 155.1 182.7 C153.6 182.7 152.4 182.9 151.5 183.3 C150.6 183.8 150.2 184.5 150.2 185.3 C150.2 186.2 150.6 186.9 151.3 187.3 C152 187.8 154.7 188.5 159.3 189.6 C162.6 190.4 164.9 191.5 166.3 192.7 C167.6 193.9 168.3 195.7 168.3 198 C168.3 200.7 167.3 203 165.1 204.9 C163 206.9 160 207.9 156.2 207.9 C152.5 207.9 149.5 207.1 147.2 205.7 C144.9 204.2 143.6 201.7 143.3 198.1 L150.9 198.1 C151 199.1 151.3 199.9 151.8 200.4 C152.6 201.5 154 202 156.1 202 C157.7 202 158.9 201.7 159.6 201.2 C160.3 200.7 160.7 200.1 160.7 199.4 C160.7 198.5 160.3 197.9 159.6 197.5 C158.8 197.1 156.1 196.4 151.6 195.4 C148.5 194.7 146.3 193.6 144.7 192.1 C143.2 190.6 142.5 188.8 142.5 186.6 C142.5 183.7 143.6 181.3 145.7 179.5 C147.9 177.7 151.2 176.8 155.7 176.8 C160.3 176.8 163.7 177.7 165.9 179.7 C168.1 181.6 169.2 184.1 169.2 187.1 L161.4 187.1 ZM139.8 201.3 L139.8 206.8 L135.7 206.8 L135.7 214.9 L128.1 214.9 L128.1 206.8 L123.4 206.8 L123.4 201.3 L128.1 201.3 L128.1 185.8 C128.1 184.6 128 183.9 127.7 183.6 C127.4 183.3 126.5 183.1 124.9 183.1 C124.7 183.1 124.4 183.1 124.2 183.2 C123.9 183.2 123.7 183.2 123.4 183.2 L123.4 177.5 L127 177.3 C130.6 177.2 133.1 177.8 134.4 179.2 C135.3 180.1 135.7 181.5 135.7 183.3 L135.7 201.3 L139.8 201.3 ZM102.2 207.7 C102.1 207.7 101.9 207.7 101.6 207.7 L101.6 199.8 C102 199.9 102.5 199.9 102.9 199.9 C103.2 200 103.5 200 103.8 200 C106.8 200 108.9 199 110 197 C110.5 195.8 110.9 194.1 110.9 191.7 L110.8 177.7 L118.6 177.7 L118.6 207 L111.2 207 L111.2 201.9 C110.1 203.9 109 205.2 108.2 205.9 C106.7 207.1 104.9 207.7 102.6 207.7 C102.4 207.7 102.3 207.7 102.2 207.7 L102.2 207.7 ZM78.8 185.5 C77.6 187.1 77 189.4 77 192.3 C77 195.3 77.6 197.5 78.8 199.1 C80 200.7 81.7 201.5 83.9 201.5 C86.2 201.5 87.9 200.7 89.1 199.1 C90.3 197.5 90.9 195.3 90.9 192.3 C90.9 189.4 90.3 187.1 89.1 185.5 C87.9 183.9 86.2 183.1 83.9 183.1 C81.7 183.1 80 183.9 78.8 185.5 L78.8 185.5 ZM72.6 181.3 C75.1 178.3 78.9 176.7 83.9 176.7 C88.9 176.7 92.7 178.3 95.2 181.3 C97.6 184.4 98.9 188 98.9 192.3 C98.9 196.6 97.6 200.2 95.2 203.3 C92.7 206.4 88.9 208 83.9 208 C78.9 208 75.1 206.4 72.7 203.3 C70.2 200.2 69 196.6 69 192.3 C68.9 188 70.2 184.4 72.7 181.3 L72.6 181.3 Z" id="istro" opacity="0" stroke="#0A81BF" fill="#0DACFF">
                           <animate id="animation" attributeName="opacity" from="0" to="1" dur="4s" fill="freeze" begin="clock.begin + 0.5"/>
                             <animate id="animation4" attributeName="opacity" from="1" to="0" dur="4s" fill="freeze" begin="animation.end"/></path>
